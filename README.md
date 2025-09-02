@@ -10,7 +10,7 @@ El curso combina teoría y práctica, cubriendo desde cadenas de Markov hasta pr
 
 3. Ejemplos prácticos
 
-Cadenas de Markov en tiempo discreto
+4. Cadenas de Markov en tiempo discreto
 
 Matrices de transición
 
@@ -39,3 +39,39 @@ Aplicaciones en confiabilidad
 Aplicaciones avanzadas
 
 Procesos estocásticos en Machine Learning y Data Science
+Procesos-Estocasticos-Python/
+│
+├── 📄 README.md                  -> Descripción general del curso
+├── 📁 notebooks/                 -> Notebooks con teoría y ejercicios prácticos
+│   ├── 01_Introduccion.ipynb
+│   ├── 02_Cadenas_Markov_Discretas.ipynb
+│   ├── 03_Cadenas_Markov_Absorbentes.ipynb
+│   ├── 04_Simulacion_MonteCarlo.ipynb
+│   ├── 05_Procesos_Poisson.ipynb
+│   ├── 06_Procesos_Renovacion.ipynb
+│   ├── 07_Cadenas_Markov_Continuas.ipynb
+│   └── 08_Aplicaciones_MachineLearning.ipynb
+│
+├── 📁 data/                      -> Conjuntos de datos usados en ejemplos
+│   ├── futbol_liverpool.csv
+│   ├── consumo_productos.csv
+│   └── voltaje_maquina.csv
+│
+├── 📁 scripts/                   -> Funciones y módulos en Python reutilizables
+│   ├── markov_chain.py
+│   ├── poisson_process.py
+│   └── simulacion_utils.py
+│
+├── 📁 projects/                  -> Proyectos aplicados
+│   ├── proyecto_liverpool_markov/
+│   │   ├── README.md
+│   │   └── liverpool_markov.ipynb
+│   ├── proyecto_consumo/
+│   │   ├── README.md
+│   │   └── simulacion_consumo.ipynb
+│   └── proyecto_voltaje_maquina/
+│       ├── README.md
+│       └── voltaje_markov.ipynb
+│
+├── requirements.txt              -> Librerías necesarias (numpy, pandas, matplotlib, scipy, jupyter)
+└── LICENSE                       -> Licencia del proyecto
