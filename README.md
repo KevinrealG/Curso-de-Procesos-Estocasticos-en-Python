@@ -1,5 +1,6 @@
 # Curso de Procesos Estocásticos en Python
 ¿Te ha interesado alguna vez  modelar fenómenos como el clima, el tráfico o el comportamiento del mercado financiero? Estos fenomenos si lo observas detenidamente, parecen tener un comportamiento poco predecible, mejor dicho parecen impredecible  u aleatorio. ¿Pero sabias que estos procesos aleatorios se pueden modelar? Esto es posible gracias a los procesos estocásticos, que son herramientas matemáticas que nos permiten analizar y predecir el comportamiento de sistemas que evolucionan de manera aleatoria a lo largo del tiempo.
+![Banner del curso](media/banner.jpg)
 
 
 Este curso te introduce a los fundamentos de los procesos estocásticos utilizando Python, una de las herramientas más populares en ciencia de datos y análisis estadístico. A lo largo del curso, aprenderás a implementar modelos estocásticos, simular procesos aleatorios y aplicar estos conceptos a problemas del mundo real.
@@ -22,76 +23,28 @@ Desarrollar la capacidad de modelar, analizar y simular sistemas estocásticos u
 Este repositorio contiene material didáctico, ejemplos prácticos y proyectos en Python para el estudio de Procesos Estocásticos. Está orientado a estudiantes y profesionales de áreas como estadística, matemáticas aplicadas, ingeniería e inteligencia artificial que deseen comprender y aplicar herramientas de probabilidad y simulación en la modelación de sistemas aleatorios.
 
 El curso combina teoría y práctica, cubriendo desde cadenas de Markov hasta procesos continuos, con ejemplos implementados en NumPy, pandas y matplotlib.
-📑 Módulos sugeridos del curso
+## 📑 Módulos del curso
 
 1. Introducción a procesos estocásticos
 
-2. Variables aleatorias y cadenas de tiempo
+2. Cadenas de Markov en tiempo discreto
 
-3. Ejemplos prácticos
+3. Aplicaciones de cadenas de Markov en Tiempo Discreto
+4. Cadenas de Markov en tiempo continuo
+5. Teoría de colas: Fundamentos y Modelos de un Servidor (M/M/1)
+6. Sistemas con Múltiples Servidores y Modelos M/M/c
+7. Redes de Colas y Modelos Avanzados
+8. Aplicaciones en Machine Learning y Proyecto integrador
+## 📂 Estructura del repositorio
+- `notebooks/`: Contiene notebooks de Jupyter con explicaciones teóricas y ejemplos prácticos.
+- `data/`: Conjuntos de datos utilizados en los ejemplos y proyectos.
+- `scripts/`: Scripts de Python para simulaciones y análisis.
+- `Projects/`: Proyectos integradores que aplican los conceptos aprendidos.
+- `README.md`: Descripción del curso y estructura del repositorio.
+- `requirements.txt`: Lista de dependencias necesarias para ejecutar el código.
 
-4. Cadenas de Markov en tiempo discreto
 
-Matrices de transición
 
-Estados recurrentes y absorbentes
-
-Ejemplos con fútbol, consumo y máquinas
-
-Simulación Monte Carlo en Python
-
-Generación de números aleatorios
-
-Aplicaciones en estimación de probabilidades
-
-Procesos de Poisson y renovación
-
-Modelado de llegadas y tiempos de espera
-
-Simulación en Python
-
-Cadenas de Markov en tiempo continuo
-
-Generadores infinitesimales
-
-Aplicaciones en confiabilidad
-
-Aplicaciones avanzadas
-
-Procesos estocásticos en Machine Learning y Data Science
-Procesos-Estocasticos-Python/
-│
-├── 📄 README.md                  -> Descripción general del curso
-├── 📁 notebooks/                 -> Notebooks con teoría y ejercicios prácticos
-│   ├── 01_Introduccion.ipynb
-│   ├── 02_Cadenas_Markov_Discretas.ipynb
-│   ├── 03_Cadenas_Markov_Absorbentes.ipynb
-│   ├── 04_Simulacion_MonteCarlo.ipynb
-│   ├── 05_Procesos_Poisson.ipynb
-│   ├── 06_Procesos_Renovacion.ipynb
-│   ├── 07_Cadenas_Markov_Continuas.ipynb
-│   └── 08_Aplicaciones_MachineLearning.ipynb
-│
-├── 📁 data/                      -> Conjuntos de datos usados en ejemplos
-│   ├── futbol_liverpool.csv
-│   ├── consumo_productos.csv
-│   └── voltaje_maquina.csv
-│
-├── 📁 scripts/                   -> Funciones y módulos en Python reutilizables
-│   ├── markov_chain.py
-│   ├── poisson_process.py
-│   └── simulacion_utils.py
-│
-├── 📁 projects/                  -> Proyectos aplicados
-│   ├── proyecto_liverpool_markov/
-│   │   ├── README.md
-│   │   └── liverpool_markov.ipynb
-│   ├── proyecto_consumo/
-│   │   ├── README.md
-│   │   └── simulacion_consumo.ipynb
-│   └── proyecto_voltaje_maquina/
-│       ├── README.md
-│       └── voltaje_markov.ipynb
-│
-├── requirements.txt              -> Librerías necesarias (numpy, pandas, matplotlib, scipy, jupyter)
-└── LICENSE                       -> Licencia del proyecto
+📺 **Sígueme en YouTube:** [[link](https://www.youtube.com/@skillscodepro/videos)]  
+📝 **Lee los artículos en Medium:** [[link](https://medium.com/@kevin_sossav)]  
+💬 **Conecta en LinkedIn:** [[link](https://www.linkedin.com/in/kevinandressossavalencia)]  
